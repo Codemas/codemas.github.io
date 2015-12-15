@@ -1,0 +1,172 @@
+*{margin:0;padding:0}
+
+body,html{
+
+	width:100%
+}
+
+body { 
+  background: url('winter-snowman-1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.intro {
+	margin-bottom: 120pt;
+}
+.intro h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size:200pt;
+	color:#fff;
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 0;
+
+}
+
+.intro .nav-bar{
+	background-color: rgba(255, 255, 255, 0.3);	
+	text-align: right;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 9999;
+  	width: 100%;
+  	height: 50px;
+}
+
+.intro ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.intro li {
+    float: right;
+}
+
+.intro li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.intro a:hover {
+	font-size: 14pt;
+}
+a.button {
+	font-family:'Lato', sans-serif;
+	display:inline-block;
+	background-color: #4f6692;
+	color:#fff;
+	font-size: 24pt;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 7px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.container-100{width:100%}
+.contentSection{padding:80px;
+	box-sizing:border-box;}
+
+
+#about {
+	background: rgba(79, 102, 146, 0.8);
+	color: #fff;
+}
+
+.about h2 {
+	font-size: 48pt;
+}
+
+.about {
+	font-family: 'Lato', sans-serif; 
+	padding-bottom: 10px;
+	font-weight: 300;
+}
+
+.info {
+	padding-top: 10px;
+}
+.about p, h4{
+	text-align: justify;
+	padding-bottom: 10px;
+	font-weight: 300;
+}
+.about p {
+	line-height:150%;
+}
+
+.about h2, h3 {
+	padding-bottom: 20px;
+}
+
+.about a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.about a:hover{
+	font-size: 14pt;
+}
+.container-80{width:80%;max-width:800px;margin:auto;}
+#team{background-color: rgba(255,255,255,0.8); color: #4f6692;}
+#team h2, h3 {
+	font-family:'Lato', sans-serif;
+	color:#4f6692;
+	font-weight: 400;
+}
+#team h2{
+	font-size: 48pt;
+}
+
+#team p {
+	font-family:'Lato', sans-serif;
+	color:#4f6692;
+	font-weight: 300;
+	line-height: 150%;
+	text-align: justify;
+}
+#team a{
+	text-decoration: none;
+}
+
+#team .circle{
+	width:160px;
+	height: 160px;
+	display: inline-block;
+	background:#eee;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+#team .teamInfo{
+	display: inline-block;
+	width:550px;
+	vertical-align: middle;
+	margin-left: 20px;
+	padding-left: 40px;
+	border-left: 1px solid #4f6692;
+}
+#team div{
+	margin-top: 20px;
+}
+#team .gina {
+	background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAPyAAAAJGVlMjU0ODkxLWVhYzEtNDBhZS04MGNjLTkxODIxYTgyZmIzMw.jpg');
+	background-size: 100%;
+}
+#team .luke{
+	background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAPeAAAAJGUwZjU1OTg1LWY3YTctNGU1MC04OGYwLTczYTc4YWI2YTE5Zg.jpg');
+	background-size: 100%;
+}
+#team .sitara{
+	background-image: url('https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10246308_978425628884755_4450603857719435794_n.jpg?oh=df8c48eb2ff51ab04d6e9203675c13c6&oe=56E00BE9');
+	background-size: 100%;
+}
