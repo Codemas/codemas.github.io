@@ -57,7 +57,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.intro a:hover {
+.intro .nav-bar a:hover {
 	font-size: 14pt;
 }
 a.button {
@@ -91,6 +91,10 @@ a.button {
 	font-family: 'Lato', sans-serif; 
 	padding-bottom: 10px;
 	font-weight: 300;
+}
+
+.about h3 {
+	color:#fff;
 }
 
 .info {
