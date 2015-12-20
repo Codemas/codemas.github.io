@@ -58,7 +58,7 @@ body {
 }
 
 .intro .nav-bar a:hover {
-	font-size: 14pt;
+	color: #000;
 }
 a.button {
 	font-family:'Lato', sans-serif;
